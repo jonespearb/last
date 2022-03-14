@@ -1,0 +1,328 @@
+.logo{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 20px;
+}
+
+.title{
+	position: absolute;
+	width: 300px;
+	height: 25px;
+	left: 150px;
+	top: 110px;
+
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 65px;
+	line-height: 80px;
+	display: flex;
+	align-items: center;
+
+	color: #2E4053;
+}
+
+p{
+	margin: 0px;
+}
+
+.border{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 24px;
+
+	position: absolute;
+	width: 507px;
+	height: 311px;
+	left: 80px;
+	top: 277px;
+
+	border: 2px solid #1565D8;
+	box-sizing: border-box;
+	border-radius: 16px;
+}
+
+.quote{
+	position: absolute;
+	width: 473px;
+	height: 21px;
+	left: 0px;
+	top: 0px;
+
+	font-family: gayathri;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 117px;
+
+	color: #1565D8;
+}
+
+.paragraph{
+	width: 473px;
+	height: 164px;
+	left: 0px;
+	top: 21px;
+
+	font-family: inter;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 38px;
+
+	display: flex;
+	align-items: center;
+
+	color: #545454;
+}
+
+.author{
+	position: static;
+	width: 125px;
+	height: 38px;
+	left: 0px;
+	top: 225px;
+
+	font-family: inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 38px;
+
+	display: flex;
+	align-items: center;
+
+	color: rgba(21, 101, 216, 0.6);
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 40px 0px;
+}
+
+#naruto{
+	position: absolute;
+	width: 340px;
+	height: 423px;
+	left: 350px;
+	top: 400px;
+}
+
+.head{
+	position: absolute;
+	width: 303px;
+	height: 51px;
+	left: 935px;
+	top: 146px;
+
+	font-family: inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	break-inside: 51px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: black;
+}
+
+.inner-text{
+	position: absolute;
+	width: 411px;
+	height: 28px;
+	left: 820px;
+	top: 209px;
+
+	font-family: inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #8692A6;
+}
+
+.pic-background{
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	left: 844px;
+	top: 277px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	border-radius: 6px;
+}
+
+#google{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 862px;
+	top: 294px;
+}
+
+#facebook{
+	position: absolute;
+	width: 35px;
+	height: 30px;
+	left: 940px;
+	top: 296px;
+}
+
+#twitter{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 1023px;
+	top: 292px;
+}
+
+#github{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 1102px;
+	top: 294px;
+}
+
+.alternative{
+	position: absolute;
+	width: 14px;
+	height: 15px;
+	left: 998px;
+	top: 391px;
+
+	font-family: inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #BABABA;
+}
+
+label{
+	position: absolute;
+	width: 151px;
+	height: 19px;
+	left: 793px;
+	top: 546px;
+
+	font-family: inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	display: flex;
+	align-items: center;
+
+	color: #696F79;
+}
+
+input{
+	position: absolute;
+	width: 426px;
+	height: 64px;
+	left: 793px;
+	padding-left: 30px;
+    border: 1px solid #8692A6;
+	box-sizing: border-box;
+	border-radius: 6px;
+
+	font-family: inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+
+	display: flex;
+	align-items: center;
+}
+
+input[name=email]{
+	top: 458px;
+}
+
+input[name=password]{
+	top: 579px;
+}
+
+input[type="checkbox"]{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 791px;
+	top: 698px;
+
+	background: #1565D8;
+	border-radius: 4px;
+}
+
+.check label{
+	position: absolute;
+	width: 373px;
+	height: 19px;
+
+	font-family: inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	display: flex;
+	align-items: center;
+
+	color: #696F79;
+}
+
+.submit-button{
+	position: absolute;
+	width: 426px;
+	height: 64px;
+	left: 793px;
+	top: 810px;
+
+	background: #1565D8;
+	border-radius: 6px;
+
+	color: #FFFFFF;
+	font-family: inter;
+	padding-left: 154px;
+}
+
+.login-in{
+	position: absolute;
+	width: 303px;
+	height: 19px;
+	left: 855px;
+	top: 901px;
+
+	font-family: inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+
+	color: #696F79;
+}
+
+
+
+
+
